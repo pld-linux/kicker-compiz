@@ -12,7 +12,7 @@ Source0:	http://www.kde-apps.org/content/files/46021-%{name}-%{_kdever}.tar.gz
 URL:		http://www.kde-apps.org/content/show.php?content=46021
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	kdelibs-devel >= 9:3.5.4
+BuildRequires:	kdelibs-devel >= 9:%{_kdever}
 BuildRequires:	rpmbuild(macros) >= 1.129
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
