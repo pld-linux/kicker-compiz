@@ -4,7 +4,7 @@ Summary:	kicker-compiz - pager to work with compiz
 Summary(pl):	kicker-compiz - pager dzia³aj±cy z compizem
 Name:		kicker-compiz
 Version:	0.2
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.kde-apps.org/content/files/46021-%{name}-%{_kdever}.tar.gz
