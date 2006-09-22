@@ -13,6 +13,7 @@ URL:		http://www.kde-apps.org/content/show.php?content=46021
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	kdelibs-devel >= 9:%{_kdever}
+BuildRequires:	kdebase-devel
 BuildRequires:	rpmbuild(macros) >= 1.129
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
