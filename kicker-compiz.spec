@@ -24,10 +24,10 @@ that use the concept of "large desktops" instead of "multiple virtual
 desktops" as kwin does exclusively.
 
 %description -l pl
-To zmodyfikowany pager dla kickera by dzia³a³ razem z compizem.
-Ogólniej ma dzia³aæ w menad¿erach okien opieraj±cych siê na idei
-"du¿ych biurek" zamiast na "wielu wirtualnych biurkach" tak jak to
-robi kwin.
+Jest to pager dla kickera zmodyfikowany tak, by dzia³a³ razem z
+compizem. Ogólniej ma dzia³aæ w zarz±dcach okien opieraj±cych siê na
+idei "du¿ych biurek" zamiast na "wielu wirtualnych biurkach" tak jak
+to robi kwin.
 
 %prep
 %setup -q -n %{name}-%{_kdever}
