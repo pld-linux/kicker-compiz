@@ -1,7 +1,7 @@
 
 %define		_kdever	3.5.4
 Summary:	kicker-compiz - pager to work with compiz
-Summary(pl.UTF-8):   kicker-compiz - pager działający z compizem
+Summary(pl.UTF-8):	kicker-compiz - pager działający z compizem
 Name:		kicker-compiz
 Version:	0.2
 Release:	1
