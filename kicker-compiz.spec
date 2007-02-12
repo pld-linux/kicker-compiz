@@ -1,7 +1,7 @@
 
 %define		_kdever	3.5.4
 Summary:	kicker-compiz - pager to work with compiz
-Summary(pl):	kicker-compiz - pager dzia³aj±cy z compizem
+Summary(pl.UTF-8):   kicker-compiz - pager dziaÅ‚ajÄ…cy z compizem
 Name:		kicker-compiz
 Version:	0.2
 Release:	1
@@ -23,10 +23,10 @@ compiz. More generally, it is intended to work with window managers
 that use the concept of "large desktops" instead of "multiple virtual
 desktops" as kwin does exclusively.
 
-%description -l pl
-Jest to pager dla kickera zmodyfikowany tak, by dzia³a³ razem z
-compizem. Ogólniej ma dzia³aæ w zarz±dcach okien opieraj±cych siê na
-idei "du¿ych biurek" zamiast na "wielu wirtualnych biurkach" tak jak
+%description -l pl.UTF-8
+Jest to pager dla kickera zmodyfikowany tak, by dziaÅ‚aÅ‚ razem z
+compizem. OgÃ³lniej ma dziaÅ‚aÄ‡ w zarzÄ…dcach okien opierajÄ…cych siÄ™ na
+idei "duÅ¼ych biurek" zamiast na "wielu wirtualnych biurkach" tak jak
 to robi kwin.
 
 %prep
