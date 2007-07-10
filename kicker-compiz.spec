@@ -9,6 +9,8 @@ License:	GPL
 Group:		X11/Applications
 Source0:	http://www.kde-apps.org/content/files/46021-%{name}-%{_kdever}.tar.gz
 # Source0-md5:	54042121de0d2dbdba33befce64b68bb
+Patch0:		kde-ac260-lt.patch
+Patch1:		kde-am.patch
 URL:		http://www.kde-apps.org/content/show.php?content=46021
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -31,6 +33,8 @@ to robi kwin.
 
 %prep
 %setup -q -n %{name}-%{_kdever}
+%patch0 -p1
+%patch1 -p1
 
 %build
 cp -f /usr/share/automake/config.sub admin
